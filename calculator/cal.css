@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-weight:bold;
+    font-family: 'Montserrat Alternates', sans-serif;
+    outline: none;
+    
+}
+
+body{
+    background-color: rgb(20, 19, 19);
+}
+h1{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    margin-bottom: 0px;
+    
+}
+
+.container{
+    width: 370px;
+    margin-top: 139px;
+}
+#result{
+    width: 59.1%;
+}
+
+input{
+    border: none;
+    width: 70px;
+    padding: 25px;
+    border-radius: 4px;
+    background-color: rgb(47, 51, 50);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.first-row, .second-row, .third-row, .fourth-row, .fifth-row{
+    margin-bottom: 3px
+}
+
+input[type="button"]:hover{
+    color: white;
+    background-color: rgb(160, 160, 160);
+}
+
+#clear{
+    background-color: rgb(255, 42, 42);
+}
